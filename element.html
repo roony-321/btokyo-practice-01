@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element</title>
+  </head>
+  <body>
+    <table border="5px">
+      <caption>
+        Ini contoh layout
+      </caption>
+      <thead>
+        <th>
+          <video autoplay muted loop controls>
+            <source src="flower.mp4s" type="video/mp4" />
+            <!-- <source src="flower.webm" type="video/webm" /> -->
+            Browser Anda tidak mendukung tag video.
+          </video>
+        </th>
+        <th>
+          <audio controls preload="none">
+            <source src="roar.mp3" type="audio/mp3" />
+            Browser Anda tidak mendukung tag audio.
+          </audio>
+        </th>
+        <th>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/j2GWBSFgYnY?si=N8mQXct0gnYmiuK2"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">
+            <iframe
+              sandbox="allow-scripts"
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="300"
+              height="200"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik"
+            ></iframe>
+          </td>
+          <td colspan="2">
+            <center>
+              <iframe
+                title="Inline Frame Example 2"
+                width="300"
+                height="200"
+                src="https://www.tokodizital.com/"
+              >
+              </iframe>
+            </center>
+          </td>
+        </tr>
+        <tr height="100px">
+          <td scope=""></td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <fieldset>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="" id="" placeholder="fauzi@example.com" />
+    </fieldset>
+
+    <select name="" id="">
+      <option value="">Jakarta</option>
+      <option value="">Tokyo</option>
+    </select>
+
+    <input type="date" name="" id="" disabled>
+    <input type="number" name="" id="" readonly>
+    <input type="range" name="" id="">
+
+    <textarea name="" id=""></textarea>
+    <input type="hidden">
+
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
